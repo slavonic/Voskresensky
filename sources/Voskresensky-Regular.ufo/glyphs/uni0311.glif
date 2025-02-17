@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni0311" format="2">
+  <advance width="0"/>
+  <unicode hex="0311"/>
+  <anchor x="-101.133" y="664.569" name="_Stacking"/>
+  <anchor x="-115" y="1019" name="Stacking"/>
+  <anchor x="-101.133" y="664.569" name="_Diacritic"/>
+  <outline>
+    <contour>
+      <point x="74.5" y="654" type="curve" smooth="yes"/>
+      <point x="67.5" y="654"/>
+      <point x="58.833" y="660.833"/>
+      <point x="48.5" y="674.5" type="curve" smooth="yes"/>
+      <point x="27.3643" y="702.454"/>
+      <point x="-2.38477" y="741.872"/>
+      <point x="-38" y="756.5" type="curve" smooth="yes"/>
+      <point x="-56.667" y="764.167"/>
+      <point x="-78.333" y="768"/>
+      <point x="-103" y="768" type="curve" smooth="yes"/>
+      <point x="-180.696" y="768"/>
+      <point x="-219.335" y="716.481"/>
+      <point x="-253.5" y="673.5" type="curve" smooth="yes"/>
+      <point x="-263.833" y="660.5"/>
+      <point x="-272.333" y="654"/>
+      <point x="-279" y="654" type="curve" smooth="yes"/>
+      <point x="-282.81" y="654"/>
+      <point x="-284.714" y="659.388"/>
+      <point x="-284.714" y="670.163" type="curve" smooth="yes"/>
+      <point x="-284.714" y="678.245"/>
+      <point x="-283.643" y="689.357"/>
+      <point x="-281.5" y="703.5" type="curve" smooth="yes"/>
+      <point x="-276.5" y="736.5"/>
+      <point x="-256.333" y="767.667"/>
+      <point x="-221" y="797" type="curve" smooth="yes"/>
+      <point x="-185.667" y="826.333"/>
+      <point x="-145" y="841"/>
+      <point x="-99" y="841" type="curve" smooth="yes"/>
+      <point x="-11.2949" y="841"/>
+      <point x="68.375" y="785.812"/>
+      <point x="78" y="709.5" type="curve" smooth="yes"/>
+      <point x="79.8662" y="694.7"/>
+      <point x="80.7998" y="682.86"/>
+      <point x="80.7998" y="673.98" type="curve" smooth="yes"/>
+      <point x="80.7998" y="660.66"/>
+      <point x="78.7002" y="654"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.fontlab.hintData</key>
+      <dict>
+        <key>hhints</key>
+        <array>
+          <dict>
+            <key>position</key>
+            <integer>768</integer>
+            <key>width</key>
+            <integer>73</integer>
+          </dict>
+        </array>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

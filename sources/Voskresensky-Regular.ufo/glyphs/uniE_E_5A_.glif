@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uniEE5A" format="2">
+  <advance width="0"/>
+  <unicode hex="EE5A"/>
+  <anchor x="-160" y="422" name="_Right"/>
+  <outline>
+    <contour>
+      <point x="-128.48" y="475.2" type="curve" smooth="yes"/>
+      <point x="-100.32" y="475.2"/>
+      <point x="-70.4014" y="452.32"/>
+      <point x="-70.4014" y="429.44" type="curve" smooth="yes"/>
+      <point x="-70.4014" y="408.32"/>
+      <point x="-89.7607" y="399.521"/>
+      <point x="-110.881" y="399.521" type="curve" smooth="yes"/>
+      <point x="-140.801" y="399.521"/>
+      <point x="-168.961" y="424.16"/>
+      <point x="-168.961" y="445.28" type="curve" smooth="yes"/>
+      <point x="-168.961" y="459.36"/>
+      <point x="-156.641" y="475.2"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.fontlab.hintData</key>
+      <dict>
+        <key>hhints</key>
+        <array>
+          <dict>
+            <key>position</key>
+            <integer>400</integer>
+            <key>width</key>
+            <integer>76</integer>
+          </dict>
+        </array>
+        <key>vhints</key>
+        <array>
+          <dict>
+            <key>position</key>
+            <integer>-169</integer>
+            <key>width</key>
+            <integer>99</integer>
+          </dict>
+        </array>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

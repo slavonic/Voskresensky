@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="u1CF38" format="2">
+  <advance width="0"/>
+  <unicode hex="1CF38"/>
+  <anchor x="-236" y="431" name="Stacking"/>
+  <anchor x="-224" y="234" name="_Stacking"/>
+  <anchor x="-226" y="234" name="_Tonal"/>
+  <outline>
+    <contour>
+      <point x="-81" y="321" type="curve" smooth="yes"/>
+      <point x="-81" y="294"/>
+      <point x="-117" y="282"/>
+      <point x="-140" y="267" type="curve"/>
+      <point x="-174" y="254"/>
+      <point x="-203" y="241"/>
+      <point x="-246" y="241" type="curve" smooth="yes"/>
+      <point x="-275" y="241"/>
+      <point x="-310" y="247"/>
+      <point x="-358" y="263" type="curve" smooth="yes"/>
+      <point x="-361" y="268"/>
+      <point x="-362" y="276"/>
+      <point x="-362" y="284" type="curve" smooth="yes"/>
+      <point x="-362" y="307"/>
+      <point x="-351" y="342"/>
+      <point x="-323" y="342" type="curve" smooth="yes"/>
+      <point x="-299" y="342"/>
+      <point x="-272" y="315"/>
+      <point x="-236" y="315" type="curve" smooth="yes"/>
+      <point x="-192" y="315"/>
+      <point x="-171" y="350"/>
+      <point x="-142" y="365" type="curve" smooth="yes"/>
+      <point x="-136" y="368"/>
+      <point x="-130" y="369"/>
+      <point x="-125" y="369" type="curve" smooth="yes"/>
+      <point x="-105" y="369"/>
+      <point x="-81" y="346"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.fontlab.hintData</key>
+      <dict>
+        <key>hhints</key>
+        <array>
+          <dict>
+            <key>position</key>
+            <integer>241</integer>
+            <key>width</key>
+            <integer>74</integer>
+          </dict>
+        </array>
+        <key>vhints</key>
+        <array>
+          <dict>
+            <key>position</key>
+            <integer>-362</integer>
+            <key>width</key>
+            <integer>281</integer>
+          </dict>
+        </array>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

@@ -3,7 +3,7 @@ FontName: Voskresensky-Regular
 FullName: Voskresensky
 FamilyName: Voskresensky
 Weight: Regular
-Copyright: Copyright 2025 The Voskresensky Project Authors (https://github.com/slavonic/Monomakh/)
+Copyright: Copyright 2025 The Voskresensky Project Authors (https://github.com/slavonic/Voskresensky)
 Version: 1.1
 ItalicAngle: 0
 UnderlinePosition: -150
@@ -22,7 +22,7 @@ OS2Version: 4
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1485932044
-ModificationTime: 1739813297
+ModificationTime: 1739813673
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
