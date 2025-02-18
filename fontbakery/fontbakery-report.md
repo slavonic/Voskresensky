@@ -105,40 +105,8 @@ These won't break the CI job for now, but will become effective after some time 
 
 
 
-<details><summary>[20] Voskresensky-Regular.ttf</summary>
+<details><summary>[18] Voskresensky-Regular.ttf</summary>
 <div>
-<details>
-    <summary>🔥 <b>FAIL</b> Ensure the font supports case swapping for all its glyphs. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#case-mapping">case_mapping</a></summary>
-    <div>
-
-
-
-
-
-
-
-* 🔥 **FAIL** <p>The following glyphs lack their case-swapping counterparts:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Glyph present in the font</th>
-<th align="left">Missing case-swapping counterpart</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">U+0481: CYRILLIC SMALL LETTER KOPPA</td>
-<td align="left">U+0480: CYRILLIC CAPITAL LETTER KOPPA</td>
-</tr>
-</tbody>
-</table>
- [code: missing-case-counterparts]
-
-
-
-</div>
-</details>
-
 <details>
     <summary>🔥 <b>FAIL</b> Does font file include unacceptable control character glyphs? <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#control-chars">control_chars</a></summary>
     <div>
@@ -150,7 +118,7 @@ These won't break the CI job for now, but will become effective after some time 
 
 
 * 🔥 **FAIL** <p>The following unacceptable control characters were identified:
-uni0013, uni001E, uni0008, uni0014, uni001F, uni0002, uni0006, uni0007, uni0019, uni0010, uni0001, uni000E, uni0012, uni0018, uni0015, uni000C, uni001C, uni0003, uni000F, uni0004, uni0017, uni0011, uni000A, uni000B, uni0016, uni001B, uni001D, uni0005, uni0009, uni001A</p>
+uni0013, uni0011, uni000C, uni0004, uni0008, uni000F, uni000E, uni000A, uni0006, uni001C, uni0014, uni0018, uni0010, uni0009, uni001B, uni001A, uni0016, uni0002, uni0015, uni0001, uni001E, uni0007, uni000B, uni0005, uni0012, uni001F, uni001D, uni0019, uni0017, uni0003</p>
  [code: unacceptable]
 
 
@@ -175,42 +143,6 @@ uni0013, uni001E, uni0008, uni0014, uni001F, uni0002, uni0006, uni0007, uni0019,
 
 * 🔥 **FAIL** <p>OS/2.usWinDescent value should be equal or greater than 893, but got 462 instead</p>
  [code: descent]
-
-
-
-</div>
-</details>
-
-<details>
-    <summary>🔥 <b>FAIL</b> Shapes languages in all GF glyphsets. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.html#googlefonts-glyphsets-shape-languages">googlefonts/glyphsets/shape_languages</a></summary>
-    <div>
-
-
-
-
-
-
-
-* 🔥 **FAIL** <p>GF_TransLatin_Arabic glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">FAIL messages</th>
-<th align="left">Languages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">Mandatory orthography codepoints:</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">The following base characters are missing from the font: Ҁ</td>
-<td align="left">cu_Cyrl (Church Slavic)</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
 
 
 
@@ -1072,6 +1004,8 @@ uni0483.salt1 (U+E013), uni0483.salt2 (U+E014), uni0483.salt3 (U+E015), uni0487.
 
 - Glyph name: uni047E	Contours detected: 8	Expected: 2
 
+- Glyph name: uni0480	Contours detected: 4	Expected: 1
+
 - Glyph name: uni0490	Contours detected: 3	Expected: 1
 
 - Glyph name: uni04A4	Contours detected: 4	Expected: 1
@@ -1234,6 +1168,8 @@ uni0483.salt1 (U+E013), uni0483.salt2 (U+E014), uni0483.salt3 (U+E015), uni0487.
 
 - Glyph name: uni047E	Contours detected: 8	Expected: 2
 
+- Glyph name: uni0480	Contours detected: 4	Expected: 1
+
 - Glyph name: uni0490	Contours detected: 3	Expected: 1
 
 - Glyph name: uni04A4	Contours detected: 4	Expected: 1
@@ -1282,7 +1218,7 @@ The following math glyphs have a different width, though:</p>
 <p>Width = 800:
 plus</p>
 <p>Width = 739:
-less, greater</p>
+greater, less</p>
 <p>Width = 850:
 equal</p>
 <p>Width = 658:
@@ -1366,24 +1302,24 @@ definitions.</p>
 <li>U+001D : try adding one of: symbols, balinese</li>
 <li>U+001E : try adding symbols</li>
 <li>U+001F : try adding symbols</li>
-<li>U+0306 COMBINING BREVE: try adding one of: old-permic, tifinagh</li>
-<li>U+0307 COMBINING DOT ABOVE: try adding one of: canadian-aboriginal, math, malayalam, tai-le, coptic, tifinagh, syriac, duployan, old-permic, todhri, hebrew</li>
+<li>U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic</li>
+<li>U+0307 COMBINING DOT ABOVE: try adding one of: duployan, malayalam, todhri, hebrew, math, old-permic, syriac, coptic, tifinagh, canadian-aboriginal, tai-le</li>
 <li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: osage, cherokee</li>
 <li>U+030F COMBINING DOUBLE GRAVE ACCENT: not included in any glyphset definition</li>
-<li>U+0311 COMBINING INVERTED BREVE: try adding one of: todhri, coptic</li>
+<li>U+0311 COMBINING INVERTED BREVE: try adding one of: coptic, todhri</li>
 <li>U+033E COMBINING VERTICAL TILDE: not included in any glyphset definition</li>
 <li>U+034F COMBINING GRAPHEME JOINER: not included in any glyphset definition</li>
 <li>U+0360 COMBINING DOUBLE TILDE: not included in any glyphset definition</li>
 <li>U+0361 COMBINING DOUBLE INVERTED BREVE: try adding coptic</li>
-<li>U+10FB GEORGIAN PARAGRAPH SEPARATOR: try adding one of: glagolitic, georgian</li>
-<li>U+200C ZERO WIDTH NON-JOINER: try adding one of: bhaiksuki, manichaean, newa, saurashtra, meetei-mayek, phags-pa, sogdian, balinese, syriac, khudawadi, rejang, tai-tham, bengali, avestan, gurmukhi, myanmar, sinhala, grantha, tagalog, psalter-pahlavi, pahawh-hmong, limbu, chakma, tai-viet, hatran, syloti-nagri, masaram-gondi, khojki, tifinagh, lao, kaithi, siddham, cham, hanunoo, brahmi, mahajani, hanifi-rohingya, tibetan, gujarati, mongolian, kharoshthi, tagbanwa, oriya, tai-le, tamil, tirhuta, zanabazar-square, kayah-li, takri, lepcha, devanagari, duployan, modi, kannada, yi, mandaic, khmer, batak, telugu, arabic, dogra, gunjala-gondi, javanese, buginese, malayalam, new-tai-lue, sundanese, warang-citi, thai, sharada, nko, buhid, thaana, hebrew</li>
-<li>U+200D ZERO WIDTH JOINER: try adding one of: bhaiksuki, manichaean, newa, old-hungarian, meetei-mayek, phags-pa, saurashtra, sogdian, balinese, syriac, khudawadi, rejang, tai-tham, bengali, avestan, gurmukhi, myanmar, sinhala, grantha, tagalog, psalter-pahlavi, pahawh-hmong, limbu, chakma, tai-viet, syloti-nagri, masaram-gondi, khojki, tifinagh, lao, kaithi, siddham, cham, hanunoo, brahmi, mahajani, hanifi-rohingya, tibetan, gujarati, mongolian, kharoshthi, tagbanwa, oriya, tai-le, tamil, tirhuta, zanabazar-square, kayah-li, takri, lepcha, devanagari, duployan, modi, kannada, yi, mandaic, khmer, batak, telugu, arabic, dogra, gunjala-gondi, javanese, buginese, malayalam, new-tai-lue, sundanese, warang-citi, thai, sharada, nko, buhid, thaana, hebrew</li>
-<li>U+202F NARROW NO-BREAK SPACE: try adding one of: mongolian, yi, phags-pa</li>
+<li>U+10FB GEORGIAN PARAGRAPH SEPARATOR: try adding one of: georgian, glagolitic</li>
+<li>U+200C ZERO WIDTH NON-JOINER: try adding one of: telugu, lepcha, cham, hatran, psalter-pahlavi, batak, sundanese, takri, malayalam, tirhuta, kharoshthi, yi, grantha, warang-citi, khmer, oriya, pahawh-hmong, limbu, kaithi, thaana, tai-viet, mongolian, myanmar, newa, tai-tham, meetei-mayek, sharada, devanagari, buhid, hebrew, gurmukhi, javanese, tifinagh, nko, syloti-nagri, tibetan, dogra, tagalog, thai, bengali, gujarati, hanunoo, mandaic, duployan, lao, rejang, saurashtra, sogdian, brahmi, bhaiksuki, tagbanwa, zanabazar-square, new-tai-lue, arabic, buginese, gunjala-gondi, balinese, tai-le, siddham, tamil, sinhala, mahajani, phags-pa, syriac, avestan, khojki, masaram-gondi, manichaean, khudawadi, modi, chakma, kannada, kayah-li, hanifi-rohingya</li>
+<li>U+200D ZERO WIDTH JOINER: try adding one of: telugu, lepcha, cham, psalter-pahlavi, batak, sundanese, takri, malayalam, tirhuta, kharoshthi, yi, grantha, warang-citi, khmer, oriya, pahawh-hmong, limbu, kaithi, thaana, tai-viet, mongolian, myanmar, newa, tai-tham, meetei-mayek, sharada, devanagari, buhid, hebrew, gurmukhi, javanese, tifinagh, nko, syloti-nagri, tibetan, dogra, tagalog, thai, bengali, gujarati, hanunoo, mandaic, duployan, lao, rejang, saurashtra, sogdian, brahmi, bhaiksuki, old-hungarian, tagbanwa, zanabazar-square, new-tai-lue, arabic, buginese, gunjala-gondi, balinese, tai-le, siddham, tamil, sinhala, mahajani, phags-pa, syriac, avestan, khojki, masaram-gondi, manichaean, khudawadi, modi, chakma, kannada, kayah-li, hanifi-rohingya</li>
+<li>U+202F NARROW NO-BREAK SPACE: try adding one of: mongolian, phags-pa, yi</li>
 <li>U+203B REFERENCE MARK: not included in any glyphset definition</li>
 <li>U+2056 THREE DOT PUNCTUATION: try adding coptic</li>
 <li>U+2058 FOUR DOT PUNCTUATION: try adding coptic</li>
 <li>U+2059 FIVE DOT PUNCTUATION: try adding coptic</li>
-<li>U+205D TRICOLON: try adding one of: meroitic-hieroglyphs, meroitic, old-hungarian, carian</li>
+<li>U+205D TRICOLON: try adding one of: meroitic-hieroglyphs, old-hungarian, carian, meroitic</li>
 <li>U+2208 ELEMENT OF: try adding math</li>
 <li>U+220B CONTAINS AS MEMBER: try adding math</li>
 <li>U+2213 MINUS-OR-PLUS SIGN: try adding math</li>
@@ -1393,7 +1329,7 @@ definitions.</p>
 <li>U+223D REVERSED TILDE: try adding math</li>
 <li>U+2282 SUBSET OF: try adding math</li>
 <li>U+2283 SUPERSET OF: try adding math</li>
-<li>U+25CC DOTTED CIRCLE: try adding one of: symbols, caucasian-albanian, coptic, syriac, myanmar, sinhala, khojki, tifinagh, siddham, osage, elbasan, tagbanwa, tai-le, tamil, duployan, old-permic, mende-kikakui, yi, mandaic, batak, marchen, javanese, malayalam, new-tai-lue, warang-citi, sundanese, bhaiksuki, manichaean, khudawadi, gurmukhi, grantha, tagalog, music, pahawh-hmong, hanunoo, kharoshthi, devanagari, canadian-aboriginal, math, thai, saurashtra, meetei-mayek, balinese, tai-tham, rejang, limbu, masaram-gondi, cham, mahajani, brahmi, tibetan, bassa-vah, wancho, oriya, zanabazar-square, kayah-li, soyombo, adlam, takri, ahom, kannada, telugu, sharada, nko, armenian, thaana, newa, phags-pa, sogdian, miao, bengali, psalter-pahlavi, chakma, tai-viet, syloti-nagri, lao, kaithi, hanifi-rohingya, gujarati, mongolian, tirhuta, lepcha, modi, khmer, dogra, gunjala-gondi, buginese, buhid, hebrew</li>
+<li>U+25CC DOTTED CIRCLE: try adding one of: lepcha, cham, psalter-pahlavi, malayalam, kharoshthi, grantha, coptic, marchen, limbu, tai-tham, sharada, devanagari, caucasian-albanian, miao, mandaic, balinese, elbasan, masaram-gondi, kayah-li, meetei-mayek, telugu, tirhuta, yi, music, kaithi, thaana, ahom, mende-kikakui, mongolian, hebrew, gurmukhi, javanese, syloti-nagri, bengali, rejang, lao, wancho, bhaiksuki, tagbanwa, new-tai-lue, soyombo, sinhala, khojki, manichaean, khudawadi, sundanese, math, warang-citi, khmer, pahawh-hmong, armenian, tai-viet, myanmar, newa, buhid, old-permic, thai, hanunoo, saurashtra, duployan, sogdian, brahmi, symbols, buginese, gunjala-gondi, tamil, phags-pa, chakma, hanifi-rohingya, kannada, batak, takri, oriya, canadian-aboriginal, osage, adlam, tifinagh, nko, tibetan, dogra, tagalog, gujarati, zanabazar-square, tai-le, mahajani, syriac, modi, bassa-vah, siddham</li>
 <li>U+261E WHITE RIGHT POINTING INDEX: try adding symbols</li>
 <li>U+2626 ORTHODOX CROSS: try adding symbols</li>
 <li>U+2627 CHI RHO: try adding symbols</li>
@@ -1645,6 +1581,8 @@ definitions.</p>
 
 * uni0472 (U+0472): B&lt;&lt;247.5,426.5&gt;-&lt;241.0,398.0&gt;-&lt;235.0,376.0&gt;&gt;/B&lt;&lt;235.0,376.0&gt;-&lt;252.0,420.0&gt;-&lt;277.0,451.0&gt;&gt; = 5.86960044301464
 
+* uni0480 (U+0480): B&lt;&lt;359.5,-81.0&gt;-&lt;356.0,-94.0&gt;-&lt;348.0,-94.0&gt;&gt;/B&lt;&lt;348.0,-94.0&gt;-&lt;354.0,-95.0&gt;-&lt;361.0,-95.5&gt;&gt; = 9.462322208025613
+
 * uni1C88 (U+1C88): B&lt;&lt;199.0,218.0&gt;-&lt;196.0,231.0&gt;-&lt;195.0,264.0&gt;&gt;/B&lt;&lt;195.0,264.0&gt;-&lt;194.0,240.0&gt;-&lt;193.0,228.5&gt;&gt; = 4.121648619317139
 
 * uni2713 (U+2713): L&lt;&lt;213.0,42.0&gt;--&lt;213.0,30.0&gt;&gt;/B&lt;&lt;213.0,30.0&gt;-&lt;226.0,94.0&gt;-&lt;247.0,152.5&gt;&gt; = 11.481991354748077
@@ -1793,8 +1731,8 @@ definitions.</p>
 
 | 💥 ERROR | ☠ FATAL | 🔥 FAIL | ⚠️ WARN | ⏩ SKIP | ℹ️ INFO | ✅ PASS | 🔎 DEBUG | 
 | ---|---|---|---|---|---|---|---|
-| 0 | 0 | 8 | 13 | 109 | 6 | 100 | 0 | 
-| 0% | 0% | 3% | 6% | 46% | 3% | 42% | 0% | 
+| 0 | 0 | 6 | 13 | 109 | 6 | 102 | 0 | 
+| 0% | 0% | 3% | 6% | 46% | 3% | 43% | 0% | 
 
 
 
