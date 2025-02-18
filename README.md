@@ -54,7 +54,13 @@ for some reason.
 
 ## Features
 
-* The font provides a number of stylistic alternatives for some glyphs, described here.
+* The font provides a number of stylistic alternatives for some glyphs:
+- narrow variant of capital O U+041E
+- connected variant of yery U+042B and U+044B and U+A651 and U+A650
+- stacked variant of digraph uk U+0479
+- various variants of the titlo U+0483 and pokrytie U+0487
+- variant of blended yus U+A659
+
 
 ## More Church Slavonic Fonts
 

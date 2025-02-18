@@ -100,7 +100,6 @@ lookup saltStylisticAlternatives {
     sub \uni0483 from [\uni0483.salt1 \uni0483.salt2 \uni0483.salt3 ];
     sub \uniA650 from [\uniA650.salt ];
     sub \uniA651 from [\uniA651.salt ];
-    sub \uniA658 from [\uniA659.salt ];
     sub \uniA659 from [\uniA659.salt ];
     sub \uni042B from [\uni042B.salt ];
     sub \uni044B from [\uni044B.salt ];
@@ -234,7 +233,7 @@ lookup markCyrillicdiacritics {
 	<anchor 289 557> mark @Diacritic;
   pos base [\uni0410 \uni0404 \uniA648 ] <anchor 353 665> mark @Diacritic
 	<anchor 524 665> mark @Yerok;
-  pos base [\uni0411 \uni0412 \uni0417 \uni0421 \uni042D \uniA644 \uniA64E ] <anchor 263 665> mark @Diacritic
+  pos base [\uni0411 \uni0412 \uni0417 \uni0421 \uni042D \uniA644 \uniA64E \uni0480 ] <anchor 263 665> mark @Diacritic
 	<anchor 434 665> mark @Yerok;
   pos base [\uni0413 ] <anchor 303 665> mark @Diacritic
 	<anchor 474 665> mark @Yerok;
@@ -1087,7 +1086,7 @@ feature mkmk {
 	\quoteright \quotesinglbase \quotedblleft \quotedblright \quotedblbase 
 	\periodcentered \uni2E2F \uF0149 \uF014E \uni261E \uni2713 \uniA648 \uniA649 
 	\uniEA1B \uni1C83 \uniF680 \uniF681 \uniF682 \uniF683 \uniF684 \uniF685 \uniF686 
-	\uniF687 \uniF688 \uni034F \uniA64C \uniA64D \uniA65A \uniA65B \uniA67E ];
+	\uniF687 \uniF688 \uni034F \uniA64C \uniA64D \uniA65A \uniA65B \uniA67E \uni0480 ];
 @GDEF_Ligature = [\uniEA80 \uniEA99 \uniEA9C \uniEA9F \uniEAC5 \uniEAFA \uniEAFD 
 	\uniEB01 \uniEB0D \uniEB52 \uniEB53 \uniEB54 \uniEB55 \uniEB56 \uniEB5F \uniEC22 
 	\uniEE76 \uniEE79 \uni0419 \uni0439 \uni0407 \uni0457 \uni0478 \uni047E \uni047F 
