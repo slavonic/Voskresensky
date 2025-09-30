@@ -91,7 +91,7 @@ lookup ccmpZnamennyLigatures {
     sub \u1CFC1 \u1CF92  by \uniEC22;
     sub \uniEE75 \uniEE51  by \uniEE76;
     sub \uniEE78 \uniEE5B  by \uniEE79;
-    sub \u1CF86 \u1CFBF  by \u1CF861CFBF;
+    sub \u1CF86 \u1CF54  by \u1CF861CFBF;
 } ccmpZnamennyLigatures;
 
 lookup saltStylisticAlternatives {
@@ -674,7 +674,7 @@ lookup markMarkPositioning {
   pos base [\u1CF53 ] <anchor 713 213> mark @Tonal
 	<anchor 625 48> mark @Podchashie
 	<anchor 1017 154> mark @Right;
-  pos base [\u1CF54 ] <anchor 601 300> mark @Tonal
+  pos base [\u1CFBF ] <anchor 601 300> mark @Tonal
 	<anchor 817 139> mark @Podchashie
 	<anchor 970 339> mark @Right;
   pos base [\u1CF56 ] <anchor 354 121> mark @Tonal
@@ -800,7 +800,7 @@ lookup markMarkPositioning {
   pos base [\u1CFBE ] <anchor 793 407> mark @Tonal
 	<anchor 953 187> mark @Podchashie
 	<anchor 1571 504> mark @Right;
-  pos base [\u1CFBF ] <anchor 413 219> mark @Tonal
+  pos base [\u1CF54 ] <anchor 413 219> mark @Tonal
 	<anchor 578 60> mark @Podchashie
 	<anchor 1116 334> mark @Right;
   pos base [\u1CF861CFBF ] <anchor 700 438> mark @Tonal
@@ -1050,7 +1050,7 @@ feature mkmk {
 	\uniEEAE \uniEEAF \uniEEB0 \uniEEB1 \uniEEB2 \uniEEB3 \uniEEB4 \uniEEB5 \uniEEB6 
 	\uniEEB7 \uniEEB8 \uniEEB9 \uniEEBA \uniEEBB \uniEEBC \uniEEBD \uniEEBE \uniEEBF 
 	\u1CF33 \u1CF34 \u1CF35 \u1CF37 \u1CF3E \u1CF3F \u1CF40 \u1CF41 \u1CF42 \u1CF43 
-	\u1CF44 \u1CF45 \u1CF46 \u1CF50 \u1CF51 \u1CF52 \u1CF53 \u1CF54 \u1CF55 \u1CF56 
+	\u1CF44 \u1CF45 \u1CF46 \u1CF50 \u1CF51 \u1CF52 \u1CF53 \u1CFBF \u1CF55 \u1CF56 
 	\u1CF57 \u1CF58 \u1CF59 \u1CF5A \u1CF5B \u1CF5C \u1CF5D \u1CF5E \u1CF5F \u1CF60 
 	\u1CF61 \u1CF62 \u1CF63 \u1CF64 \u1CF65 \u1CF66 \u1CF67 \u1CF68 \u1CF69 \u1CF6A 
 	\u1CF6B \u1CF6C \u1CF6D \u1CF6E \u1CF6F \u1CF70 \u1CF71 \u1CF72 \u1CF73 \u1CF74 
@@ -1061,7 +1061,7 @@ feature mkmk {
 	\u1CF9D \u1CF9E \u1CF9F \u1CFA0 \u1CFA1 \u1CFA2 \u1CFA3 \u1CFA4 \u1CFA5 \u1CFA6 
 	\u1CFA7 \u1CFA8 \u1CFA9 \u1CFAA \u1CFAB \u1CFAC \u1CFAD \u1CFAE \u1CFAF \u1CFB0 
 	\u1CFB1 \u1CFB2 \u1CFB3 \u1CFB4 \u1CFB5 \u1CFB6 \u1CFB7 \u1CFB8 \u1CFB9 \u1CFBA 
-	\u1CFBB \u1CFBC \u1CFBD \u1CFBE \u1CFBF \u1CF861CFBF \u1CFC1 \u1CFC2 \u1CFC3 
+	\u1CFBB \u1CFBC \u1CFBD \u1CFBE \u1CF54 \u1CF861CFBF \u1CFC1 \u1CFC2 \u1CFC3 
 	\u1CFC0 \uni04A4 \uni04A5 \uni0410 \uni0411 \uni0412 \uni0413 \uni0414 \uni0415 
 	\uni0416 \uni0417 \uni0418 \uni041A \uni041B \uni041C \uni041D \uni041E \uni041F 
 	\uni0420 \uni0421 \uni0422 \uni0424 \uni0425 \uni0426 \uni0427 \uni0428 \uni0429 

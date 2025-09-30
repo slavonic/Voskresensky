@@ -22,7 +22,7 @@ OS2Version: 4
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1485932044
-ModificationTime: 1739862273
+ModificationTime: 1759261125
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -54,7 +54,7 @@ OS2StrikeYSize: 49
 OS2StrikeYPos: 258
 OS2CapHeight: 662
 OS2XHeight: 450
-OS2Vendor: '    '
+OS2Vendor: 'SCIN'
 OS2CodePages: 00000001.00000000
 OS2UnicodeRanges: 80000003.12002002.00000000.00000000
 Lookup: 4 0 0 "'ccmp' Cyrillic Ligatures" { "'ccmp' Cyrillic Ligatures-1"  } ['ccmp' ('DFLT' <'dflt' > 'cyrl' <'dflt' > 'geor' <'dflt' > 'latn' <'dflt' > ) ]
@@ -73,7 +73,7 @@ NameList: AGL For New Fonts
 DisplaySize: -48
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 270 27 9
+WinInfo: 266 38 12
 BeginPrivate: 5
 BlueValues 22 [-9 1 460 469 624 633]
 OtherBlues 11 [-125 -116]
@@ -10157,8 +10157,8 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: u1CF54
-Encoding: 118612 118612 280
+StartChar: u1CFBF
+Encoding: 118719 118719 280
 Width: 1148
 GlyphClass: 2
 Flags: W
@@ -14747,8 +14747,8 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: u1CFBF
-Encoding: 118719 118719 387
+StartChar: u1CF54
+Encoding: 118612 118612 387
 Width: 953
 GlyphClass: 2
 Flags: W
@@ -14854,7 +14854,8 @@ SplineSet
  63 119 59 119 56 119 c 0xb7
 EndSplineSet
 Validated: 1
-Ligature2: "'ccmp' Znamenny Ligatures 0-1" u1CF86 u1CFBF
+LCarets2: 1 0
+Ligature2: "'ccmp' Znamenny Ligatures 0-1" u1CF86 u1CF54
 Colour: ffff
 EndChar
 
