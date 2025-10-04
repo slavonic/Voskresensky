@@ -169,7 +169,7 @@ lookup markCyrillicdiacritics {
   markClass [\uni2DEA ] <anchor -1 564> @Diacritic;
   markClass [\uni2DEB ] <anchor -0 510> @Diacritic;
   markClass [\uni2DEC ] <anchor -48 465> @Diacritic;
-  markClass [\uni2DED ] <anchor -0 525> @Diacritic;
+  markClass [\uni2DED \uni2DF8 \uni2DF9 \uni2DFC \uni2DFE \uni2DFF ] <anchor -0 525> @Diacritic;
   markClass [\uni2DEE ] <anchor -190 602> @Diacritic;
   markClass [\uni2DEF ] <anchor -60 590> @Diacritic;
   markClass [\uni2DF0 ] <anchor -0 519> @Diacritic;
@@ -225,6 +225,7 @@ lookup markCyrillicdiacritics {
   markClass [\uniF4FD ] <anchor -160 525> @Diacritic;
   markClass [\uniF4FB ] <anchor -170 615> @Diacritic;
   markClass [\uniF4FA ] <anchor -140 571> @Diacritic;
+  markClass [\uni2DF5 ] <anchor 300 525> @Diacritic;
   pos base [\uni25CC ] <anchor 420 928> mark @Diacritic
 	<anchor 710 801> mark @Yerok;
   pos base [\uni04A4 ] <anchor 343 665> mark @Diacritic
@@ -838,7 +839,7 @@ lookup mkmkMarktoMarkPositioning {
   markClass [\uni2DEA ] <anchor -0 565> @Stacking;
   markClass [\uni2DEB ] <anchor -0 511> @Stacking;
   markClass [\uni2DEC ] <anchor -50 465> @Stacking;
-  markClass [\uni2DED ] <anchor -0 525> @Stacking;
+  markClass [\uni2DED \uni2DF8 \uni2DF9 \uni2DFC \uni2DFE \uni2DFF ] <anchor -0 525> @Stacking;
   markClass [\uni2DEE ] <anchor -190 605> @Stacking;
   markClass [\uni2DEF ] <anchor -59 592> @Stacking;
   markClass [\uni2DF0 ] <anchor -0 518> @Stacking;
@@ -896,6 +897,7 @@ lookup mkmkMarktoMarkPositioning {
   markClass [\uniF4FD ] <anchor -159 520> @Stacking;
   markClass [\uniF4FB ] <anchor -169 616> @Stacking;
   markClass [\uniF4FA ] <anchor -144 569> @Stacking;
+  markClass [\uni2DF5 ] <anchor 300 525> @Stacking;
   pos mark [\u1CF30 ] <anchor -136 537> mark @Stacking;
   pos mark [\u1CF31 ] <anchor -261 503> mark @Stacking;
   pos mark [\u1CF32 ] <anchor -353 542> mark @Stacking;
@@ -918,7 +920,7 @@ lookup mkmkMarktoMarkPositioning {
   pos mark [\uni2DEA ] <anchor -2 919> mark @Stacking;
   pos mark [\uni2DEB ] <anchor -2 895> mark @Stacking;
   pos mark [\uni2DEC ] <anchor -44 1049> mark @Stacking;
-  pos mark [\uni2DED ] <anchor -4 939> mark @Stacking;
+  pos mark [\uni2DED \uni2DF8 \uni2DF9 \uni2DFC \uni2DFE \uni2DFF ] <anchor -4 939> mark @Stacking;
   pos mark [\uni2DEE ] <anchor -204 959> mark @Stacking;
   pos mark [\uni2DEF ] <anchor -63 1086> mark @Stacking;
   pos mark [\uni2DF0 ] <anchor -14 872> mark @Stacking;
@@ -979,6 +981,7 @@ lookup mkmkMarktoMarkPositioning {
   pos mark [\uniF4FD ] <anchor -173 1074> mark @Stacking;
   pos mark [\uniF4FB ] <anchor -165 1295> mark @Stacking;
   pos mark [\uniF4FA ] <anchor -146 1264> mark @Stacking;
+  pos mark [\uni2DF5 ] <anchor 296 939> mark @Stacking;
 } mkmkMarktoMarkPositioning;
 
 feature mark {
@@ -1028,82 +1031,80 @@ feature mkmk {
 } mkmk;
 #Mark attachment classes (defined in GDEF, used in lookupflags)
 
-@GDEF_Simple = [\uni0000 \uni0001 \uni0002 \uni0003 \uni0004 \uni0005 \uni0006 
-	\uni0007 \uni0008 \uni0009 \uni000A \uni000B \uni000C \uni000D \uni000E \uni000F 
-	\uni0010 \uni0011 \uni0012 \uni0013 \uni0014 \uni0015 \uni0016 \uni0017 \uni0018 
-	\uni0019 \uni001A \uni001B \uni001C \uni001D \uni001E \uni001F \space \exclam 
-	\quotedbl \numbersign \dollar \percent \ampersand \quotesingle \parenleft 
-	\parenright \asterisk \plus \comma \hyphen \period \slash \zero \one \two \three 
-	\four \five \six \seven \eight \nine \colon \semicolon \less \equal \greater 
-	\question \at \A \B \C \D \E \F \G \H \I \J \K \L \M \N \O \P \Q \R \S \T \U \V \W \X \Y \Z 
-	\bracketleft \backslash \bracketright \asciicircum \underscore \grave \a \b \c \d 
-	\e \f \g \h \i \j \k \l \m \n \o \p \q \r \s \t \u \v \w \x \y \z \braceleft \bar \braceright 
-	\asciitilde \uni00A0 \currency \brokenbar \section \logicalnot \macron \degree 
-	\paragraph \uni200C \uni200D \uni202F \Euro \uni25CC \uniEA57 \uniEB57 \uniEE53 
-	\uniEE54 \uniEE5C \uniEE5D \uniEE5E \uniEE70 \uniEE71 \uniEE72 \uniEE73 \uniEE74 
-	\uniEE75 \uniEE77 \uniEE78 \uniEE7A \uniEE7B \uniEE7C \uniEE7D \uniEE7E \uniEE7F 
-	\uniEE80 \uniEE81 \uniEE82 \uniEE83 \uniEE84 \uniEE85 \uniEE86 \uniEE87 \uniEE88 
-	\uniEE89 \uniEE8A \uniEE8B \uniEE8C \uniEE8D \uniEE8E \uniEE8F \uniEE90 \uniEE91 
-	\uniEE92 \uniEE93 \uniEE94 \uniEE95 \uniEE96 \uniEE97 \uniEE98 \uniEE99 \uniEE9A 
-	\uniEE9B \uniEE9C \uniEE9D \uniEE9E \uniEE9F \uniEEA0 \uniEEA1 \uniEEA2 \uniEEA3 
-	\uniEEA4 \uniEEA5 \uniEEA6 \uniEEA7 \uniEEA8 \uniEEAA \uniEEAB \uniEEAC \uniEEAD 
-	\uniEEAE \uniEEAF \uniEEB0 \uniEEB1 \uniEEB2 \uniEEB3 \uniEEB4 \uniEEB5 \uniEEB6 
-	\uniEEB7 \uniEEB8 \uniEEB9 \uniEEBA \uniEEBB \uniEEBC \uniEEBD \uniEEBE \uniEEBF 
-	\u1CF33 \u1CF34 \u1CF35 \u1CF37 \u1CF3E \u1CF3F \u1CF40 \u1CF41 \u1CF42 \u1CF43 
-	\u1CF44 \u1CF45 \u1CF46 \u1CF50 \u1CF51 \u1CF52 \u1CF53 \u1CFBF \u1CF55 \u1CF56 
-	\u1CF57 \u1CF58 \u1CF59 \u1CF5A \u1CF5B \u1CF5C \u1CF5D \u1CF5E \u1CF5F \u1CF60 
-	\u1CF61 \u1CF62 \u1CF63 \u1CF64 \u1CF65 \u1CF66 \u1CF67 \u1CF68 \u1CF69 \u1CF6A 
-	\u1CF6B \u1CF6C \u1CF6D \u1CF6E \u1CF6F \u1CF70 \u1CF71 \u1CF72 \u1CF73 \u1CF74 
-	\u1CF75 \u1CF76 \u1CF77 \u1CF78 \u1CF79 \u1CF7A \u1CF7B \u1CF7C \u1CF7D \u1CF7E 
-	\u1CF7F \u1CF80 \u1CF81 \u1CF82 \u1CF83 \u1CF84 \u1CF85 \u1CF86 \u1CF87 \u1CF88 
-	\u1CF89 \u1CF8A \u1CF8B \u1CF8C \u1CF8D \u1CF8E \u1CF8F \u1CF90 \u1CF91 \u1CF92 
-	\u1CF93 \u1CF94 \u1CF95 \u1CF96 \u1CF97 \u1CF98 \u1CF99 \u1CF9A \u1CF9B \u1CF9C 
-	\u1CF9D \u1CF9E \u1CF9F \u1CFA0 \u1CFA1 \u1CFA2 \u1CFA3 \u1CFA4 \u1CFA5 \u1CFA6 
-	\u1CFA7 \u1CFA8 \u1CFA9 \u1CFAA \u1CFAB \u1CFAC \u1CFAD \u1CFAE \u1CFAF \u1CFB0 
-	\u1CFB1 \u1CFB2 \u1CFB3 \u1CFB4 \u1CFB5 \u1CFB6 \u1CFB7 \u1CFB8 \u1CFB9 \u1CFBA 
-	\u1CFBB \u1CFBC \u1CFBD \u1CFBE \u1CF54 \u1CF861CFBF \u1CFC1 \u1CFC2 \u1CFC3 
-	\u1CFC0 \uni04A4 \uni04A5 \uni0410 \uni0411 \uni0412 \uni0413 \uni0414 \uni0415 
-	\uni0416 \uni0417 \uni0418 \uni041A \uni041B \uni041C \uni041D \uni041E \uni041F 
-	\uni0420 \uni0421 \uni0422 \uni0424 \uni0425 \uni0426 \uni0427 \uni0428 \uni0429 
-	\uni042A \uni042C \uni0430 \uni0431 \uni0432 \uni0433 \uni0434 \uni0435 \uni0436 
-	\uni0437 \uni0438 \uni043A \uni043B \uni043C \uni043D \uni043E \uni043F \uni0440 
-	\uni0441 \uni0442 \uni0443 \uni0444 \uni0445 \uni0446 \uni0447 \uni0448 \uni0449 
-	\uni044A \uni044C \uni0462 \uni0463 \uni0406 \uni0456 \uni042E \uni044E \uni0464 
-	\uni0465 \uni0468 \uni0469 \uni046A \uni046B \uni046C \uni046D \uni0466 \uni0467 
-	\uni0470 \uni0471 \uni0405 \uni0455 \uni046E \uni046F \uni0474 \uni0475 \uni0472 
-	\uni0473 \uni047A \uni047B \uni0460 \uni0461 \uni0481 \uni0454 \uni047C \uni047D 
-	\uni0482 \uni0402 \uni0404 \uni0409 \uni040A \uni040B \uni040F \uni0423 \uni042D 
-	\uni042F \uni044D \uni044F \uni0452 \uni0459 \uni045A \uni045B \uni045F \uni0490 
-	\uni0491 \uni2116 \uniA65E \uniA65F \uni1C82 \uniA642 \uniA643 \uniA644 \uniA645 
-	\uniA64E \uniA64F \uniA650 \uniA651 \uniA652 \uniA653 \uniA654 \uniA655 \uniA658 
-	\uniA659 \uniA65C \uniA65D \uniA656 \uniA657 \uni1C88 \uni042B \uni044B \uniA646 
-	\uniA647 \uniA64A \uniA64B \uniA640 \uniA641 \uni10FB \uni203B \uni2056 \uni2058 
-	\uni2059 \uni205D \ellipsis \element \suchthat \uni2213 \uni2214 \uni223B 
-	\similar \uni223D \propersubset \propersuperset \uni2626 \uni2627 \uni2795 
-	\uni2E2B \uni2E2C \uni2E2D \uni2E2A \uni2E43 \uni2E0F \uni2E49 \uniA67F 
-	\uni0479.salt \uniA650.salt \uniA651.salt \uni042B.salt \uni044B.salt 
-	\uniA658.salt \uniA659.salt \uniA673 \uni041E.salt \endash \emdash \quoteleft 
-	\quoteright \quotesinglbase \quotedblleft \quotedblright \quotedblbase 
-	\periodcentered \uni2E2F \uF0149 \uF014E \uni261E \uni2713 \uniA648 \uniA649 
-	\uniEA1B \uni1C83 \uniF680 \uniF681 \uniF682 \uniF683 \uniF684 \uniF685 \uniF686 
-	\uniF687 \uniF688 \uni034F \uniA64C \uniA64D \uniA65A \uniA65B \uniA67E \uni0480 ];
+@GDEF_Simple = [\uni0000 \uni000D \uni001F \space \exclam \quotedbl \numbersign 
+	\dollar \percent \ampersand \quotesingle \parenleft \parenright \asterisk \plus 
+	\comma \hyphen \period \slash \zero \one \two \three \four \five \six \seven \eight 
+	\nine \colon \semicolon \less \equal \greater \question \at \A \B \C \D \E \F \G \H \I \J 
+	\K \L \M \N \O \P \Q \R \S \T \U \V \W \X \Y \Z \bracketleft \backslash \bracketright 
+	\asciicircum \underscore \grave \a \b \c \d \e \f \g \h \i \j \k \l \m \n \o \p \q \r \s \t \u 
+	\v \w \x \y \z \braceleft \bar \braceright \asciitilde \uni00A0 \currency 
+	\brokenbar \section \logicalnot \macron \degree \paragraph \uni200C \uni200D 
+	\uni202F \Euro \uni25CC \uniEA57 \uniEB57 \uniEE53 \uniEE54 \uniEE5C \uniEE5D 
+	\uniEE5E \uniEE70 \uniEE71 \uniEE72 \uniEE73 \uniEE74 \uniEE75 \uniEE77 \uniEE78 
+	\uniEE7A \uniEE7B \uniEE7C \uniEE7D \uniEE7E \uniEE7F \uniEE80 \uniEE81 \uniEE82 
+	\uniEE83 \uniEE84 \uniEE85 \uniEE86 \uniEE87 \uniEE88 \uniEE89 \uniEE8A \uniEE8B 
+	\uniEE8C \uniEE8D \uniEE8E \uniEE8F \uniEE90 \uniEE91 \uniEE92 \uniEE93 \uniEE94 
+	\uniEE95 \uniEE96 \uniEE97 \uniEE98 \uniEE99 \uniEE9A \uniEE9B \uniEE9C \uniEE9D 
+	\uniEE9E \uniEE9F \uniEEA0 \uniEEA1 \uniEEA2 \uniEEA3 \uniEEA4 \uniEEA5 \uniEEA6 
+	\uniEEA7 \uniEEA8 \uniEEAA \uniEEAB \uniEEAC \uniEEAD \uniEEAE \uniEEAF \uniEEB0 
+	\uniEEB1 \uniEEB2 \uniEEB3 \uniEEB4 \uniEEB5 \uniEEB6 \uniEEB7 \uniEEB8 \uniEEB9 
+	\uniEEBA \uniEEBB \uniEEBC \uniEEBD \uniEEBE \uniEEBF \u1CF50 \u1CF51 \u1CF52 
+	\u1CF53 \u1CFBF \u1CF55 \u1CF56 \u1CF57 \u1CF58 \u1CF59 \u1CF5A \u1CF5B \u1CF5C 
+	\u1CF5D \u1CF5E \u1CF5F \u1CF60 \u1CF61 \u1CF62 \u1CF63 \u1CF64 \u1CF65 \u1CF66 
+	\u1CF67 \u1CF68 \u1CF69 \u1CF6A \u1CF6B \u1CF6C \u1CF6D \u1CF6E \u1CF6F \u1CF70 
+	\u1CF71 \u1CF72 \u1CF73 \u1CF74 \u1CF75 \u1CF76 \u1CF77 \u1CF78 \u1CF79 \u1CF7A 
+	\u1CF7B \u1CF7C \u1CF7D \u1CF7E \u1CF7F \u1CF80 \u1CF81 \u1CF82 \u1CF83 \u1CF84 
+	\u1CF85 \u1CF86 \u1CF87 \u1CF88 \u1CF89 \u1CF8A \u1CF8B \u1CF8C \u1CF8D \u1CF8E 
+	\u1CF8F \u1CF90 \u1CF91 \u1CF92 \u1CF93 \u1CF94 \u1CF95 \u1CF96 \u1CF97 \u1CF98 
+	\u1CF99 \u1CF9A \u1CF9B \u1CF9C \u1CF9D \u1CF9E \u1CF9F \u1CFA0 \u1CFA1 \u1CFA2 
+	\u1CFA3 \u1CFA4 \u1CFA5 \u1CFA6 \u1CFA7 \u1CFA8 \u1CFA9 \u1CFAA \u1CFAB \u1CFAC 
+	\u1CFAD \u1CFAE \u1CFAF \u1CFB0 \u1CFB1 \u1CFB2 \u1CFB3 \u1CFB4 \u1CFB5 \u1CFB6 
+	\u1CFB7 \u1CFB8 \u1CFB9 \u1CFBA \u1CFBB \u1CFBC \u1CFBD \u1CFBE \u1CF54 
+	\u1CF861CFBF \u1CFC1 \u1CFC2 \u1CFC3 \u1CFC0 \uni04A4 \uni04A5 \uni0410 \uni0411 
+	\uni0412 \uni0413 \uni0414 \uni0415 \uni0416 \uni0417 \uni0418 \uni041A \uni041B 
+	\uni041C \uni041D \uni041E \uni041F \uni0420 \uni0421 \uni0422 \uni0424 \uni0425 
+	\uni0426 \uni0427 \uni0428 \uni0429 \uni042A \uni042C \uni0430 \uni0431 \uni0432 
+	\uni0433 \uni0434 \uni0435 \uni0436 \uni0437 \uni0438 \uni043A \uni043B \uni043C 
+	\uni043D \uni043E \uni043F \uni0440 \uni0441 \uni0442 \uni0443 \uni0444 \uni0445 
+	\uni0446 \uni0447 \uni0448 \uni0449 \uni044A \uni044C \uni0462 \uni0463 \uni0406 
+	\uni0456 \uni042E \uni044E \uni0464 \uni0465 \uni0468 \uni0469 \uni046A \uni046B 
+	\uni046C \uni046D \uni0466 \uni0467 \uni0470 \uni0471 \uni0405 \uni0455 \uni046E 
+	\uni046F \uni0474 \uni0475 \uni0472 \uni0473 \uni047A \uni047B \uni0460 \uni0461 
+	\uni0481 \uni0454 \uni047C \uni047D \uni0482 \uni0402 \uni0404 \uni0409 \uni040A 
+	\uni040B \uni040F \uni0423 \uni042D \uni042F \uni044D \uni044F \uni0452 \uni0459 
+	\uni045A \uni045B \uni045F \uni0490 \uni0491 \uni2116 \uniA65E \uniA65F \uni1C82 
+	\uniA642 \uniA643 \uniA644 \uniA645 \uniA64E \uniA64F \uniA650 \uniA651 \uniA652 
+	\uniA653 \uniA654 \uniA655 \uniA658 \uniA659 \uniA65C \uniA65D \uniA656 \uniA657 
+	\uni1C88 \uni042B \uni044B \uniA646 \uniA647 \uniA64A \uniA64B \uniA640 \uniA641 
+	\uni10FB \uni203B \uni2056 \uni2058 \uni2059 \uni205D \ellipsis \element 
+	\suchthat \uni2213 \uni2214 \uni223B \similar \uni223D \propersubset 
+	\propersuperset \uni2626 \uni2627 \uni2795 \uni2E2B \uni2E2C \uni2E2D \uni2E2A 
+	\uni2E43 \uni2E0F \uni2E49 \uniA67F \uni0479.salt \uniA650.salt \uniA651.salt 
+	\uni042B.salt \uni044B.salt \uniA658.salt \uniA659.salt \uniA673 
+	\uni041E.salt \endash \emdash \quoteleft \quoteright \quotesinglbase 
+	\quotedblleft \quotedblright \quotedblbase \periodcentered \uni2E2F \uF0149 
+	\uF014E \uni261E \uni2713 \uniA648 \uniA649 \uniEA1B \uni1C83 \uniF680 \uniF681 
+	\uniF682 \uniF683 \uniF684 \uniF685 \uniF686 \uniF687 \uniF688 \uniA64C \uniA64D 
+	\uniA65A \uniA65B \uniA67E \uni0480 \uni2028 \uni2029 ];
 @GDEF_Ligature = [\uniEA80 \uniEA99 \uniEA9C \uniEA9F \uniEAC5 \uniEAFA \uniEAFD 
 	\uniEB01 \uniEB0D \uniEB52 \uniEB53 \uniEB54 \uniEB55 \uniEB56 \uniEB5F \uniEC22 
 	\uniEE76 \uniEE79 \uni0419 \uni0439 \uni0407 \uni0457 \uni0478 \uni047E \uni047F 
 	\uni0476 \uni0477 \uni0401 \uni0403 \uni040C \uni040E \uni0451 \uni0453 \uni045C 
 	\uni045E \uni0479 \uniE925 \uni045D \uni040D \uni0450 \uni0400 ];
 @GDEF_Mark = [\uniEE50 \uniEE51 \uniEE52 \uniEE55 \uniEE56 \uniEE57 \uniEE58 
-	\uniEE59 \uniEE5A \uniEE5B \u1CF30 \u1CF31 \u1CF32 \u1CF36 \u1CF38 \u1CF39 
-	\u1CF3A \u1CF3B \u1CF3C \u1CF3D \uni0483 \uni2DE0 \uni2DE1 \uni2DE2 \uni2DF1 
-	\uni2DE3 \uni2DE4 \uni2DE5 \uni2DE6 \uni2DE7 \uni2DE8 \uni2DE9 \uni2DEA \uni2DEB 
-	\uni2DEC \uni2DED \uni2DEE \uni2DEF \uni2DF0 \uni2DF2 \uni2DF3 \uni2DFA \uni2DF4 
-	\uni2DFD \uni2DF6 \uni2DF7 \uni2DFB \uniA67D \uni0484 \uni0485 \uni0486 
-	\uni0487.salt \uni033E \gravecomb \acutecomb \tildecomb \uni0306 \uni030B 
-	\uni030F \uni0311 \uni0361 \uni0360 \uniE001 \uniE003 \uni0487 \uni0483.salt1 
-	\uni0483.salt2 \uni0483.salt3 \uni0308 \uni0307 \uniA66F \uniA67C \uniE005 
-	\uniF4E0 \uniF4E1 \uniF4E2 \uniF4E3 \uniF4E4 \uniF4E5 \uniF4E6 \uniF4E7 \uniF4E8 
-	\uniF4E9 \uniF4EA \uniF4EB \uniF4EC \uniF4ED \uniF4EE \uniF4EF \uniF4F0 \uniF4F1 
-	\uniF4F2 \uniF4F3 \uniF4F4 \uniF4F6 \uniF4F7 \uniF4FD \uniF4FB \uniF4FA ];
+	\uniEE59 \uniEE5A \uniEE5B \u1CF30 \u1CF31 \u1CF32 \u1CF33 \u1CF34 \u1CF35 
+	\u1CF36 \u1CF37 \u1CF38 \u1CF39 \u1CF3A \u1CF3B \u1CF3C \u1CF3D \u1CF3E \u1CF3F 
+	\u1CF40 \u1CF41 \u1CF42 \u1CF43 \u1CF44 \u1CF45 \u1CF46 \uni0483 \uni2DE0 
+	\uni2DE1 \uni2DE2 \uni2DF1 \uni2DE3 \uni2DE4 \uni2DE5 \uni2DE6 \uni2DE7 \uni2DE8 
+	\uni2DE9 \uni2DEA \uni2DEB \uni2DEC \uni2DED \uni2DEE \uni2DEF \uni2DF0 \uni2DF2 
+	\uni2DF3 \uni2DFA \uni2DF4 \uni2DFD \uni2DF6 \uni2DF7 \uni2DFB \uniA67D \uni0484 
+	\uni0485 \uni0486 \uni0487.salt \uni033E \gravecomb \acutecomb \tildecomb 
+	\uni0306 \uni030B \uni030F \uni0311 \uni0361 \uni0360 \uniE001 \uniE003 \uni0487 
+	\uni0483.salt1 \uni0483.salt2 \uni0483.salt3 \uni034F \uni0308 \uni0307 
+	\uniA66F \uniA67C \uniE005 \uniF4E0 \uniF4E1 \uniF4E2 \uniF4E3 \uniF4E4 \uniF4E5 
+	\uniF4E6 \uniF4E7 \uniF4E8 \uniF4E9 \uniF4EA \uniF4EB \uniF4EC \uniF4ED \uniF4EE 
+	\uniF4EF \uniF4F0 \uniF4F1 \uniF4F2 \uniF4F3 \uniF4F4 \uniF4F6 \uniF4F7 \uniF4FD 
+	\uniF4FB \uniF4FA \uni2DF5 \uni2DF8 \uni2DF9 \uni2DFC \uni2DFE \uni2DFF ];
 
 table GDEF {
   GlyphClassDef @GDEF_Simple, @GDEF_Ligature, @GDEF_Mark, ;
